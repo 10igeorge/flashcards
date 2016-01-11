@@ -1,11 +1,5 @@
-/* $(function() {
-$("#modulo").click(function() {
-  $('#definition').text("Here is some new text.")
-  });
-}); */
-
 $(function() {
-  $('#modulo').click(function(){
+  $('#modulo').click(function() {
     $('.init_hidden, #initial, #defWordTitle').hide();
     $('#moduloDef, #moduloDefTitle').show();
 });
