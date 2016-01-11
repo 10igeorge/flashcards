@@ -48,6 +48,10 @@ ul li p {
   font-weight: bold;
 }
 
+li:hover {
+  cursor: pointer;
+}
+
 /* Styles for smaller screens
 ////////////////////////////// */
 @media screen and (max-width: 375px) {
