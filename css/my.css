@@ -4,3 +4,7 @@ body {
 .init_hidden {
   display: none;
 }
+.ig-ja-right-border {
+  border-right: 1px dotted #000;
+
+}

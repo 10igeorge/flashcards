@@ -1,32 +1,26 @@
 $(function() {
   $('#modulo').click(function() {
-    $('.init_hidden, #initial, #defWordTitle').hide();
-    $('#moduloDef, #moduloDefTitle').show();
+    $('#moduloDef, #moduloDefTitle').toggle();
 });
 
 $('#alert').click(function() {
-  $('.init_hidden, #initial, #defWordTitle').hide();
-  $('#alertDef, #alertDefTitle').show();
+  $('#alertDef, #alertDefTitle').toggle();
 });
 
 $('#plusEquals').click(function() {
-  $('.init_hidden, #initial, #defWordTitle').hide();
-  $('#plusEqualsDef, #plusEqualsDefTitle').show();
+  $('#plusEqualsDef, #plusEqualsDefTitle').toggle();
 });
 
 $('#string').click(function() {
-  $('.init_hidden, #initial, #defWordTitle').hide();
-  $('#stringDef, #stringDefTitle').show();
+  $('#stringDef, #stringDefTitle').toggle();
 });
 
 $('#escape').click(function() {
-  $('.init_hidden, #initial, #defWordTitle').hide();
-  $('#escapeDef, #escapeDefTitle').show();
+  $('#escapeDef, #escapeDefTitle').toggle();
 });
 
 $('#boolean').click(function() {
-  $('.init_hidden, #initial, #defWordTitle').hide();
-  $('#booleanDef, #booleanDefTitle').show();
+  $('#booleanDef, #booleanDefTitle').toggle();
 });
 
 
