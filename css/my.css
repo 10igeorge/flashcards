@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png')
 }
 .init_hidden {
   display: none;
@@ -27,6 +27,12 @@ ul li p {
 }
 
 
+/* List Styles
+////////////////////////////*/
+
+.ig-ja-bold p {
+  font-weight: bold;
+}
 
 /* Styles for smaller screens
 ////////////////////////////// */
