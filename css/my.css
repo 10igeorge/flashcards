@@ -1,6 +1,20 @@
 body {
-  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png')
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/grey_wash_wall.png');
 }
+
+h1 {
+  margin-top: 10%;
+  font-family: 'Montserrat';
+  font-size: 65px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.row h2 {
+  color: #000;
+  opacity: 0.5;
+}
+
 .init_hidden {
   display: none;
 }
@@ -9,7 +23,7 @@ body {
 }
 
 .container {
-  margin-top: 20%;
+  margin-top: 2%;
 }
 
 /* Font Styles
@@ -45,5 +59,9 @@ ul li p {
   margin-top: 0;
 }
 
+.row h1 {
+  margin-top: 0px;
+  font-size: 50px;
+}
 
 }
